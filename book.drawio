@@ -1,0 +1,214 @@
+<mxfile host="app.diagrams.net" modified="2023-09-14T07:06:28.011Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="_wnrNQEFqb7xuxWYyKTG" version="21.7.4" type="github" pages="3">
+  <diagram name="第 1 页" id="oQzXH6kWNafxo--riQiw">
+    <mxGraphModel dx="2389" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-1" value="用户子系统功能模块" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-670" y="340" width="1460" height="514" as="geometry">
+            <mxRectangle x="239" y="357" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-2" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-4" target="o34mngEKM_3Eb7yUo2iy-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-4" target="o34mngEKM_3Eb7yUo2iy-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="用户子系统功能模块" treeRoot="1" id="o34mngEKM_3Eb7yUo2iy-4">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+            <mxGeometry x="657.5" y="40" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-5" value="教师功能模块" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="370" y="152" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-6" value="学生功能模块" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="1100" y="152" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0.25;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-4" target="o34mngEKM_3Eb7yUo2iy-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-9" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-5" target="o34mngEKM_3Eb7yUo2iy-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="887.5" y="450" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-10" value="借阅模块" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="490" y="242" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-11" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-5" target="o34mngEKM_3Eb7yUo2iy-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="817.5" y="550" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-12" value="留言模块" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="605" y="242" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-13" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-5" target="o34mngEKM_3Eb7yUo2iy-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="452.5" y="550" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-14" value="查询模块" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="140" y="242" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-15" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-5" target="o34mngEKM_3Eb7yUo2iy-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="317.5" y="528" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-16" value="修改信息模块" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="370" y="242" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-17" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-6" target="o34mngEKM_3Eb7yUo2iy-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="428" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-18" value="修改信息模块" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="1090" y="242" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-19" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-6" target="o34mngEKM_3Eb7yUo2iy-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-20" value="查询模块" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="860" y="242" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-21" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-6" target="o34mngEKM_3Eb7yUo2iy-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-22" value="借阅模块" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="1200" y="242" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-23" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-6" target="o34mngEKM_3Eb7yUo2iy-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-24" value="留言模块" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="1310" y="242" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-25" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-14" target="o34mngEKM_3Eb7yUo2iy-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="132.5" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-26" value="图书信息查询" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=Helvetica;labelPosition=center;verticalLabelPosition=middle;labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="138.75" y="342" width="102.5" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-27" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-14" target="o34mngEKM_3Eb7yUo2iy-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-39.5" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-28" value="查看公告" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="250" y="342" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-29" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-14" target="o34mngEKM_3Eb7yUo2iy-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-39.5" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-30" value="查看个人信息" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="30" y="342" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-32" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-12" target="o34mngEKM_3Eb7yUo2iy-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-157" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-33" value="给图书馆留言" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="605" y="342" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-34" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-10" target="o34mngEKM_3Eb7yUo2iy-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-157" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-35" value="借阅图书" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="490" y="342" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-39" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-16" target="o34mngEKM_3Eb7yUo2iy-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-157" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-40" value="修改密码" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};flipV=0;flipH=0;fontFamily=Helvetica;labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="370" y="340" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-41" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-26" target="o34mngEKM_3Eb7yUo2iy-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-82" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-20" target="o34mngEKM_3Eb7yUo2iy-83" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560.5" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-83" value="图书信息查询" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="860" y="342" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-84" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-20" target="o34mngEKM_3Eb7yUo2iy-85" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410.5" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-85" value="查看公告" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="970" y="342" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-86" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-20" target="o34mngEKM_3Eb7yUo2iy-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-87" value="查看个人信息" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="750" y="342" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-88" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-18" target="o34mngEKM_3Eb7yUo2iy-89" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-89" value="修改密码" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="1090" y="342" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-90" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-22" target="o34mngEKM_3Eb7yUo2iy-91" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-91" value="借阅图书" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="1200" y="342" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-92" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;labelBackgroundColor=none;fontColor=default;" parent="o34mngEKM_3Eb7yUo2iy-1" source="o34mngEKM_3Eb7yUo2iy-24" target="o34mngEKM_3Eb7yUo2iy-93" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o34mngEKM_3Eb7yUo2iy-93" value="给图书馆留言" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;rounded=0;" parent="o34mngEKM_3Eb7yUo2iy-1" vertex="1">
+          <mxGeometry x="1310" y="342" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="oRvkig6WUrVJ5ZSK1liP" name="第 2 页">
+    <mxGraphModel dx="1562" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3h4RqIhPTA8lYUhSe2Qs" name="第 3 页">
+    <mxGraphModel dx="1562" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
