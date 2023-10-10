@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T05:36:51.643Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="BQmzGLDJQm5UafxjDxcH" version="22.0.4" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-10-10T06:08:29.498Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="UJ73H6tf2yvjDRzm_2LU" version="22.0.4" type="github" pages="19">
   <diagram name="第 1 页" id="oQzXH6kWNafxo--riQiw">
     <mxGraphModel dx="1499" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1845,6 +1845,539 @@
         </mxCell>
         <mxCell id="PvbZ-e08zs9By6VypHFx-34" value="阅读" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="650" y="670" width="140" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dWmOG3UNsWkLjBYo9v71" name="4-17">
+    <mxGraphModel dx="672" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V9xLduunrVBR76QROjq9-8" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="V9xLduunrVBR76QROjq9-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V9xLduunrVBR76QROjq9-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="294" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V9xLduunrVBR76QROjq9-11" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="V9xLduunrVBR76QROjq9-9" target="V9xLduunrVBR76QROjq9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V9xLduunrVBR76QROjq9-9" value="输入账号密码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="294" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V9xLduunrVBR76QROjq9-13" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="V9xLduunrVBR76QROjq9-10" target="V9xLduunrVBR76QROjq9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V9xLduunrVBR76QROjq9-10" value="账号密码是否正确" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="284" y="290" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V9xLduunrVBR76QROjq9-12" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; 跳转到用户相对应的界面&lt;/span&gt;&lt;/div&gt;" style="html=1;fontSize=11;rounded=0;align=center;spacing=2;spacingTop=-1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="294" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V9xLduunrVBR76QROjq9-14" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="V9xLduunrVBR76QROjq9-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="350" as="sourcePoint" />
+            <mxPoint x="350" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="330" />
+              <mxPoint x="470" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FfY6s4F-NNZp3_UOfLg9" name="4-18">
+    <mxGraphModel dx="672" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BAXZqblukWmCSyI-D4qT-1" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="140" as="targetPoint" />
+            <mxPoint x="353.5" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="294" y="60" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-3" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="160" as="sourcePoint" />
+            <mxPoint x="354" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-4" value="输入账号密码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="294" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-5" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="240" as="sourcePoint" />
+            <mxPoint x="353.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-10" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="BAXZqblukWmCSyI-D4qT-5">
+          <mxGeometry x="0.4" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-6" value="账号密码是否正确" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="284" y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-12" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="370" as="sourcePoint" />
+            <mxPoint x="354" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="354" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-7" value="&lt;div style=&quot;&quot;&gt;进入系统管理员界面&lt;/div&gt;" style="html=1;fontSize=11;rounded=0;align=center;spacing=2;spacingTop=-1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="294" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-8" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BAXZqblukWmCSyI-D4qT-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="428" y="340" as="sourcePoint" />
+            <mxPoint x="354" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="260" />
+              <mxPoint x="460" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-23" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="BAXZqblukWmCSyI-D4qT-8">
+          <mxGeometry x="-0.2236" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-15" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="BAXZqblukWmCSyI-D4qT-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-11" value="进入新增读者界面" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;spacing=2;spacingTop=-1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="420" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-16" value="是否提交信息" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;rounded=0;spacing=2;spacingTop=-1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="580" width="120" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-19" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BAXZqblukWmCSyI-D4qT-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="680" as="sourcePoint" />
+            <mxPoint x="354" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="606" />
+              <mxPoint x="450" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-21" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="BAXZqblukWmCSyI-D4qT-19">
+          <mxGeometry x="-0.2194" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCYIjZjjfEoVl5GeDfHs-1" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="BAXZqblukWmCSyI-D4qT-11" target="BAXZqblukWmCSyI-D4qT-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="495" as="sourcePoint" />
+            <mxPoint x="354" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-14" value="输入新增读者信息" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;spacing=2;spacingTop=-1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="500" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="OCYIjZjjfEoVl5GeDfHs-3" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BAXZqblukWmCSyI-D4qT-16" target="BAXZqblukWmCSyI-D4qT-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="353.5" y="692.5" as="sourcePoint" />
+            <mxPoint x="354" y="752.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OCYIjZjjfEoVl5GeDfHs-5" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="OCYIjZjjfEoVl5GeDfHs-3">
+          <mxGeometry x="0.0261" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BAXZqblukWmCSyI-D4qT-25" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="304" y="690" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ks8ATTBBrfEtREYDQw8r" name="4-19">
+    <mxGraphModel dx="672" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sqobw3R5yweIvsaVboL0-1" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="130" as="targetPoint" />
+            <mxPoint x="353.5" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="294" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-3" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="150" as="sourcePoint" />
+            <mxPoint x="354" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="354" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-4" value="输入账号密码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="294" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-5" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="240" as="sourcePoint" />
+            <mxPoint x="353.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-6" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="sqobw3R5yweIvsaVboL0-5">
+          <mxGeometry x="0.4" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-7" value="账号密码是否正确" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="284" y="220" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-8" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="350" as="sourcePoint" />
+            <mxPoint x="354" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="354" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-9" value="&lt;div style=&quot;&quot;&gt;进入系统管理员界面&lt;/div&gt;" style="html=1;fontSize=11;rounded=0;align=center;spacing=2;spacingTop=-1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="294" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-10" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sqobw3R5yweIvsaVboL0-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="428" y="340" as="sourcePoint" />
+            <mxPoint x="354" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="255" />
+              <mxPoint x="460" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-11" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="sqobw3R5yweIvsaVboL0-10">
+          <mxGeometry x="-0.2236" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-12" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="520" as="targetPoint" />
+            <mxPoint x="353.5" y="415" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-13" value="进入图书管理界面" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;spacing=2;spacingTop=-1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="430" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-14" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="557.5" as="sourcePoint" />
+            <mxPoint x="353.5" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-16" value="是否提交信息" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;rounded=0;spacing=2;spacingTop=-1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="620" width="120" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-17" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;" edge="1" parent="1" source="sqobw3R5yweIvsaVboL0-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="710" as="sourcePoint" />
+            <mxPoint x="360" y="550" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-19" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="353.5" y="672.5" as="sourcePoint" />
+            <mxPoint x="354" y="732.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-20" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="sqobw3R5yweIvsaVboL0-19">
+          <mxGeometry x="0.0003" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-21" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="304" y="730" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aCcN6x8I6_Gx_U6p6qgb-1" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sqobw3R5yweIvsaVboL0-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="710" as="sourcePoint" />
+            <mxPoint x="354" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="646" />
+              <mxPoint x="460" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aCcN6x8I6_Gx_U6p6qgb-2" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="aCcN6x8I6_Gx_U6p6qgb-1">
+          <mxGeometry x="-0.2194" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqobw3R5yweIvsaVboL0-15" value="选择修改图书" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;spacing=2;spacingTop=-1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="520" width="120" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QY42K-7FgMputIUe7U4j" name="4-20">
+    <mxGraphModel dx="672" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-1" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="120" as="targetPoint" />
+            <mxPoint x="353.5" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="294" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-3" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="120" as="sourcePoint" />
+            <mxPoint x="354" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPVwv3gl-aYDq-ZH3uh3-1" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="xk6GYG7dLLOTJYBDPAii-4" target="xk6GYG7dLLOTJYBDPAii-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-4" value="输入账号密码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="294" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-5" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="210" as="sourcePoint" />
+            <mxPoint x="353.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-6" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="xk6GYG7dLLOTJYBDPAii-5">
+          <mxGeometry x="0.4" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-7" value="账号密码是否正确" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="284" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-8" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="310" as="sourcePoint" />
+            <mxPoint x="354" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-9" value="&lt;div style=&quot;&quot;&gt;进入读者界面&lt;/div&gt;" style="html=1;fontSize=11;rounded=0;align=center;spacing=2;spacingTop=-1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="294" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-10" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xk6GYG7dLLOTJYBDPAii-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="428" y="340" as="sourcePoint" />
+            <mxPoint x="350" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="225" />
+              <mxPoint x="460" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-11" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="xk6GYG7dLLOTJYBDPAii-10">
+          <mxGeometry x="-0.2236" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-12" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="480" as="targetPoint" />
+            <mxPoint x="353.5" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-13" value="进入借阅界面" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;spacing=2;spacingTop=-1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-14" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="xk6GYG7dLLOTJYBDPAii-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="500" as="sourcePoint" />
+            <mxPoint x="353.5" y="562.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-15" value="选择所借图书" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;spacing=2;spacingTop=-1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-16" value="是否借阅" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;rounded=0;spacing=2;spacingTop=-1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="570" width="120" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-17" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xk6GYG7dLLOTJYBDPAii-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="710" as="sourcePoint" />
+            <mxPoint x="360" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="596" />
+              <mxPoint x="460" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-18" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="xk6GYG7dLLOTJYBDPAii-17">
+          <mxGeometry x="-0.2194" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-19" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="353.5" y="610" as="sourcePoint" />
+            <mxPoint x="354" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-20" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="xk6GYG7dLLOTJYBDPAii-19">
+          <mxGeometry x="0.0003" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk6GYG7dLLOTJYBDPAii-21" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="304" y="670" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2vUttOlNunLSgbNRonPe" name="4-21">
+    <mxGraphModel dx="672" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q1QJXP886seM4knMjtB1-1" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="120" as="targetPoint" />
+            <mxPoint x="353.5" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="294" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-3" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="120" as="sourcePoint" />
+            <mxPoint x="354" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-4" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="q1QJXP886seM4knMjtB1-5" target="q1QJXP886seM4knMjtB1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-5" value="输入账号密码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="294" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-6" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="210" as="sourcePoint" />
+            <mxPoint x="353.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-7" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="q1QJXP886seM4knMjtB1-6">
+          <mxGeometry x="0.4" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-8" value="账号密码是否正确" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="284" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-9" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="310" as="sourcePoint" />
+            <mxPoint x="354" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-10" value="&lt;div style=&quot;&quot;&gt;进入图书管理员界面&lt;/div&gt;" style="html=1;fontSize=11;rounded=0;align=center;spacing=2;spacingTop=-1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="294" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-11" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="q1QJXP886seM4knMjtB1-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="428" y="340" as="sourcePoint" />
+            <mxPoint x="350" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="225" />
+              <mxPoint x="460" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-12" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="q1QJXP886seM4knMjtB1-11">
+          <mxGeometry x="-0.2236" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-13" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="480" as="targetPoint" />
+            <mxPoint x="353.5" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-14" value="进入借阅管理界面" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;spacing=2;spacingTop=-1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-15" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="q1QJXP886seM4knMjtB1-17" source="q1QJXP886seM4knMjtB1-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="500" as="sourcePoint" />
+            <mxPoint x="353.5" y="562.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-17" value="是否借阅" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;rounded=0;spacing=2;spacingTop=-1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="570" width="120" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-20" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="353.5" y="610" as="sourcePoint" />
+            <mxPoint x="354" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-21" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="q1QJXP886seM4knMjtB1-20">
+          <mxGeometry x="0.0003" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-22" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="304" y="670" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-27" value="" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="450" as="sourcePoint" />
+            <mxPoint x="560" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-28" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="450" as="sourcePoint" />
+            <mxPoint x="160" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-29" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="450" as="sourcePoint" />
+            <mxPoint x="560" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-30" value="借阅办理" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;spacing=2;spacingTop=-1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-31" value="罚款处理" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;spacing=2;spacingTop=-1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-32" value="" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=blockThin;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="q1QJXP886seM4knMjtB1-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353.5" y="500" as="sourcePoint" />
+            <mxPoint x="354" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1QJXP886seM4knMjtB1-16" value="图书归还" style="whiteSpace=wrap;html=1;fontSize=11;rounded=0;spacing=2;spacingTop=-1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="480" width="94" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
